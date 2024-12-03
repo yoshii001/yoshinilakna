@@ -777,10 +777,22 @@ form input::placeholder,
     .hero-image {
       max-width: 80%;
     }
+      form .send-btn {
+        width: 50%;
+      }
   }
   
   @media (max-width: 480px) {
     .hero-image {
       max-width: 90%;
     }
+      form .send-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+      
+      .contact-form form {
+        width: 100%;
+      }
   }
