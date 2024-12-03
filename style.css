@@ -375,7 +375,7 @@ form input, form textarea{
     border-radius: 8px;
 }
 form input::placeholder,
- from textarea::placeholder{
+ form textarea::placeholder{
     color: var(--other-color);
     font-size: 15px;
  }
@@ -576,7 +576,7 @@ form input::placeholder,
     transform: translateY(-5px) scale(1.03);
 }
 
-/* Rest of the previous CSS styles remain the same */
+
 
 @media (max-width: 1700px){
     header{
